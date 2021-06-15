@@ -8,7 +8,36 @@
     <meta name="robots" content="noindex" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <!-- <link rel="preload" href="./fonts/FiraGO-Regular.latin.woff2" as="font" crossorigin="anonymous"> -->
+    <link
+      rel="preload"
+      href="./fonts/FiraGO-Regular.latin.woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/FiraGO-SemiBold.latin.woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/FiraGO-Medium.latin.woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/FiraGO-Bold.latin.woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="preload"
+      href="./fonts/FiraGO-Regular.shared.woff2"
+      as="font"
+      crossorigin="anonymous"
+    />
     <link href="./build.css" rel="stylesheet" />
     <title>Shalom Steinbach — Resume</title>
   </head>
@@ -40,7 +69,7 @@
               text-base
               leading-none
               text-white
-              bg-gray-700
+              bg-blue-900
               font-medium
               print:bg-black
               px-3
@@ -55,7 +84,7 @@
             </div>
             <div class="text-center initial">S</div>
           </div>
-          <h1 class="text-2xl font-semibold text-gray pb-px">
+          <h1 class="text-2xl font-semibold text-gray-800 pb-px">
             Shalom Steinbach
           </h1>
         </header>
@@ -84,98 +113,97 @@
                   print:font-normal
                 "
               >
-                PROFILE
+                SUMMARY
               </h2>
 
               <section class="mb-4.5 break-inside-avoid">
-                <!-- <header>
-                  <h3
-                    class="text-lg font-semibold text-gray-700 leading-snugish"
-                  >
-                    User Interface Designer
-                  </h3>
-                  <p class="leading-normal text-md text-gray-650">Since 2010</p>
-                </header> -->
                 <p class="mt-2.1 text-md text-gray-700 leading-normal">
                   Experienced Software Developer and DevOps Engineer. Passionate
-                  about Modern Web Development and best practices. Highly
-                  skilled with Micro-Service based systems and Container
-                  Orchestration platforms.
+                  about Modern Web Development and Best Practices. Extensive
+                  history of working on large Micro-Service based projects.
                 </p>
               </section>
             </div>
           </section>
 
           <section class="mt-8 first:mt-0">
-            <!-- To keep in the same column -->
-            <div class="break-inside-avoid">
-              <h2
-                class="
-                  mb-4
-                  font-bold
-                  tracking-widest
-                  text-sm2 text-gray-550
-                  print:font-normal
-                "
-              >
-                EXPERIENCE
-              </h2>
+            <h2
+              class="
+                mb-4
+                font-bold
+                tracking-widest
+                text-sm2 text-gray-550
+                print:font-normal
+              "
+            >
+              EXPERIENCE
+            </h2>
 
-              <section class="mb-4.5 break-inside-avoid">
-                <header>
-                  <h3
-                    class="text-lg font-semibold text-gray-700 leading-snugish"
+            <section class="mb-4.5 break-inside-avoid">
+              <header>
+                <h3 class="text-lg font-semibold text-gray-700 leading-snugish">
+                  Full-stack Developer
+                </h3>
+                <p class="leading-normal text-md text-gray-650">
+                  Jan 2020 – Sep 2021 | Israeli Navy
+                </p>
+              </header>
+              <ul class="">
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="
+                      absolute
+                      -ml-3
+                      sm:-ml-3.2
+                      select-none
+                      transform
+                      -translate-y-px
+                    "
+                    >›</span
                   >
-                    Frontend Web Developer
-                  </h3>
-                  <p class="leading-normal text-md text-gray-650">
-                    Jul 2020 – Sept 2021 | Israeli Navy
-                  </p>
-                </header>
-                <ul class="">
-                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                    <span
-                      class="
-                        absolute
-                        -ml-3
-                        sm:-ml-3.2
-                        select-none
-                        transform
-                        -translate-y-px
-                      "
-                      >›</span
-                    >
-                    Architected and Implemented a core feature in our Frontend
-                    dubbed "Video on Demand". The feature enabled users to
-                    playback historical data in the application while remaining
-                    highly interactive. Users could scrub freely over a timeline
-                    in a manner similar to a video player. The design leveraged
-                    Progressive Web APIs such as IndexedDB and WebWorkers in
-                    order to both offload work from the server, and enable
-                    efficient updates to the UI on every frame render.
-                  </li>
-                  <li class="mt-2.1 text-md text-gray-700 leading-normal">
-                    <span
-                      class="
-                        absolute
-                        -ml-3
-                        sm:-ml-3.2
-                        select-none
-                        transform
-                        -translate-y-px
-                      "
-                      >›</span
-                    >
-                    Developed features for the system's Frontend Angular
-                    web-app. The application presents graphical data to the user
-                    on a map which is highly dynamic and interactive. Mapping
-                    features powered by the CesiumJS library and reactivity
-                    using the RxJS library. Backend of both REST APIs and
-                    DeepStream for push events.
-                  </li>
-                </ul>
-              </section>
-            </div>
+                  Architected and implemented a core feature in Navy's C4I
+                  frontend dubbed "Video on Demand". Feature enabled users to
+                  playback historical data in the application while remaining
+                  highly interactive. Design leveraged Progressive Web APIs such
+                  as IndexedDB and WebWorkers in order to both offload work from
+                  the server, and enable efficient updates to the UI on every
+                  frame render.
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="
+                      absolute
+                      -ml-3
+                      sm:-ml-3.2
+                      select-none
+                      transform
+                      -translate-y-px
+                    "
+                    >›</span
+                  >
+                  Implemented features end-to-end and weighed in on high-level
+                  design decisions.
+                </li>
+                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                  <span
+                    class="
+                      absolute
+                      -ml-3
+                      sm:-ml-3.2
+                      select-none
+                      transform
+                      -translate-y-px
+                    "
+                    >›</span
+                  >
+                  Developed features for the system's frontend Angular web-app.
+                  Application presents graphical data on a map that is highly
+                  dynamic and interactive. Mapping features powered by the
+                  CesiumJS library and reactivity using the RxJS library.
+                  Backend of both REST APIs and DeepStream for push events.
+                </li>
+              </ul>
+            </section>
 
             <section class="mb-4.5 break-inside-avoid">
               <header>
@@ -183,7 +211,7 @@
                   DevOps Engineer & Developer
                 </h3>
                 <p class="leading-normal text-md text-gray-650">
-                  Feb 2017 – Jun 2020 | Israeli Navy
+                  Feb 2017 – Jan 2020 | Israeli Navy
                 </p>
               </header>
               <ul class="">
@@ -202,7 +230,7 @@
                   Designed and developed a CLI tool written in Bash that
                   facilitates flexible configuration and deployment of
                   micro-service based applications on OpenShift. Currently in
-                  use by over 50 developers.
+                  use at multiple sites and by over 50 developers.
                 </li>
                 <li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span
@@ -218,9 +246,9 @@
                   >
                   Was responsible for the development of the system's Admin
                   Portal web-app. Wrote the technical spec and coordinated work
-                  across several teams. Developed the main Backend API which
-                  interfaced with the OpenShift API and other services running
-                  on OpenShift. Written in Java using the Dropwizard framework.
+                  across several teams. Developed main backend API which
+                  interfaces with the OpenShift API and other services on
+                  OpenShift. Written in Java using the Dropwizard framework.
                 </li>
                 <li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span
@@ -238,7 +266,7 @@
                   leveraging a combination of custom scripts and DevOps tools
                   such as Jenkins, Gerrit, Azure DevOps and Artifactory.
                 </li>
-                <li class="mt-2.1 text-md text-gray-700 leading-normal">
+                <!-- <li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span
                     class="
                       absolute
@@ -250,11 +278,11 @@
                     "
                     >›</span
                   >
-                  Authored an Ansible Playbook which automated the deployment of
+                  Authored an Ansible Playbook which automates the deployment of
                   offline OpenShift instances with all supporting network
                   entities - such as a Docker Registry, and YUM Repository,
                   baked in.
-                </li>
+                </li> -->
                 <li class="mt-2.1 text-md text-gray-700 leading-normal">
                   <span
                     class="
@@ -267,7 +295,7 @@
                     "
                     >›</span
                   >
-                  Conducted OpenShift Cluster administration, managed Linux
+                  Performed OpenShift cluster administration, managed Linux
                   servers, and wrote many scripts for routine jobs.
                 </li>
               </ul>
@@ -354,7 +382,7 @@
                   <h3
                     class="text-lg font-semibold text-gray-700 leading-snugish"
                   >
-                    Languages
+                    Programming Languages
                   </h3>
                 </header>
                 <div class="my-3.2 last:pb-1.5">
@@ -591,6 +619,56 @@
                 </ul>
               </div>
             </section>
+          </section>
+
+          <section class="mt-8 first:mt-0">
+            <!-- To keep in the same column -->
+            <div class="break-inside-avoid">
+              <h2
+                class="
+                  mb-4
+                  font-bold
+                  tracking-widest
+                  text-sm2 text-gray-550
+                  print:font-normal
+                "
+              >
+                LANGUAGES
+              </h2>
+
+              <section class="mb-4.5 break-inside-avoid">
+                <ul>
+                  <li class="mt-1.6 text-md text-gray-700 leading-normal">
+                    <span
+                      class="
+                        absolute
+                        -ml-3
+                        sm:-ml-3.2
+                        select-none
+                        transform
+                        -translate-y-px
+                      "
+                      >•</span
+                    >
+                    English - Native Speaker
+                  </li>
+                  <li class="mt-1.6 text-md text-gray-700 leading-normal">
+                    <span
+                      class="
+                        absolute
+                        -ml-3
+                        sm:-ml-3.2
+                        select-none
+                        transform
+                        -translate-y-px
+                      "
+                      >•</span
+                    >
+                    Hebrew - Native Speaker
+                  </li>
+                </ul>
+              </section>
+            </div>
           </section>
 
           <section class="mt-8 first:mt-0">
