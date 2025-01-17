@@ -1,5 +1,5 @@
-const defaultTheme = require("tailwindcss/defaultTheme");
-const plugin = require("tailwindcss/plugin");
+import defaultTheme from "tailwindcss/defaultTheme";
+import plugin from "tailwindcss/plugin";
 
 module.exports = {
   content: ["./docs/**/*.html"],
@@ -60,13 +60,9 @@ module.exports = {
         11: "2.75rem", // 44px (once)
       },
       colors: {
-        gray: {
-          150: "hsl(210, 44%, 97%)",
-          250: "hsl(210, 40%, 93.5%)",
-          550: "hsl(218, 20%, 63%)",
-          650: "hsl(216, 15%, 48%)",
-          750: "hsl(214, 17%, 32%)",
-          ...defaultTheme.colors.gray,
+        slate: {
+          400: "hsl(215 20% 62% / 1)",
+          ...defaultTheme.colors.slate,
         },
         link: "#fbf3f3",
       },
